@@ -69,3 +69,49 @@ user.sayHello = function() {
 }
 user.sayHello();
 
+// Q8 引数
+let calc = {};
+
+// 和
+calc.add = function(x, y) {
+  console.log(x + y);
+};
+calc.add(3, 4); 
+
+// 差
+calc.subtract = function(x, y) {
+  console.log(x - y);
+};
+calc.subtract(20, 10);
+
+// 積
+calc.multiply = function(x, y) {
+  console.log(x * y);
+};
+calc.multiply(7, 7);
+
+// 商
+calc.divide = function(x, y) {
+  console.log(x / y);
+};
+calc.divide(25, 5); 
+
+
+// Q9
+function remainder(x, y) {
+  return x % y;
+}
+
+let result = remainder(5, 3);
+
+console.log('5 を 3 で割った余りは ' + result + ' です。');
+
+
+// Q10
+function foo() {
+  let x = 1;
+}
+console.log(x);
+// JavaScriptではスコープという変数の有効範囲が決まっており、
+// 関数fooの中で定義した変数Xは関数fooの中でしか参照することができないので、
+// 関数fooの外で使おうとするとエラーが起こる。
