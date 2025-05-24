@@ -1,3 +1,4 @@
+// セクション５
 // Q1変数
 let nickname ='ヨースケ';
 let age = 33;
@@ -108,10 +109,19 @@ console.log('5 を 3 で割った余りは ' + result + ' です。');
 
 
 // Q10
-function foo() {
-  let x = 1;
-}
-console.log(x);
+// function foo() {
+//   let x = 1;
+// }
+// console.log(x);
 // JavaScriptではスコープという変数の有効範囲が決まっており、
 // 関数fooの中で定義した変数Xは関数fooの中でしか参照することができないので、
 // 関数fooの外で使おうとするとエラーが起こる。
+
+
+
+
+// セクション６
+// Q1
+let random = Math.random(); 
+let randomInt = Math.floor(random * 10);
+console.log(randomInt);
