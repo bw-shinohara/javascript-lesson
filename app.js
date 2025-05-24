@@ -141,3 +141,10 @@ if (num > 0) {
 }else{
   console.log('num is 0');
 };
+
+// Q4
+let numbers = [];
+for (let i = 0; i <= 99; i++) {
+  numbers.push(i);
+}
+console.log(numbers);
