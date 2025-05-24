@@ -125,3 +125,9 @@ console.log('5 を 3 で割った余りは ' + result + ' です。');
 let random = Math.random(); 
 let randomInt = Math.floor(random * 10);
 console.log(randomInt);
+
+// Q2
+setTimeout(function () {
+  console.log('Hello World!');
+},
+3000);
